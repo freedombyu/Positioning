@@ -37,31 +37,44 @@
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+  display: grid;
+  grid-templete-columns: 50px 50px 50px 50px 50px
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 .red2 {
-  width: 100px; 
-  height: 100px; 
+  width: 150px; 
+  height: 150px; 
   background-color: red;
 
 } 
 .green2 { 
-  width: 100px; 
-  height: 100px; 
+  width: 150px; 
+  height: 150px; 
   background-color: green; 
 } 
 .yellow2 {
-  width: 100px; 
-  height: 100px; 
+  width: 150px; 
+  height: 150px; 
   background-color: gold; 
 } 
 .blue2 {
-  width: 100px; 
-  height: 100px; 
+  width: 150px; 
+  height: 150px; 
   background-color: blue; 
 } 
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
 }
 .red3 {
   width: 100px; 
